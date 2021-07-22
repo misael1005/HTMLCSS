@@ -20,6 +20,7 @@
         </h4>
         <section>
             <article>
+                <p>Por favor responde las siguientes preguntas:</p>
                 <form action="">
                     <ul>
                         <li>
@@ -35,9 +36,47 @@
                             </label>
                         </li>
                         <li>
+                            <label for="color">
+                                <span>Elige tu color favorito</span>
+                                <input type="color" id="country" name="country" placeholder="Tu país aquí">
+                            </label>
+                        </li>
+                        <li>
                             <label for="country">
                                 <span>¿En qué país vives?</span>
-                                <input type="text" id="country" name="country" placeholder="Tu país aquí" autocomplete="country">
+                                <select name="country" id="country">
+                                    <option value="México">México</option>
+                                    <option value="USA" selected="selected">USA</option>
+                                    <option value="Canada">Canada</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="movie">
+                                <span>¿Cuál es tu película favorita?</span>
+                                <input list="movie" name="movie" placeholder="Tu pelíclua aquí" required>
+                                    <datalist id="movie">
+                                        <option value="Harry Potter y La Piedra Filosofal"></option>
+                                        <option value="Harry Potter y La Cámara Secreta"></option>
+                                        <option value="Harry Potter y El Prisionero de Askaban"></option>
+                                        <option value="Harry Potter y El Cáliz de Fuego"></option>
+                                        <option value="Harry Potter y La Orden del Fénix"></option>
+                                        <option value="Harry Potter y El Príncipe Mestizo"></option>
+                                        <option value="Harry Potter y Las Reliquias de la Muerte Parte 1"></option>
+                                        <option value="Harry Potter y Las Reliquias de la Muerte Parte 2"></option>
+                                        <option value="El Señor de Los Anillos: Las Comunida del Anillo"></option>
+                                        <option value="El Señor de Los Anillos: Las Dos Torres"></option>
+                                        <option value="El Señor de Los Anillos: El Retorno del Rey"></option>
+                                        <option value="Star Wars Episodio 1: La Amenaza Fantasma"></option>
+                                        <option value="Star Wars Episodio 2: La Guerra de los Clones"></option>
+                                        <option value="Star Wars Episodio 3: La Venganza de los Sith"></option>
+                                        <option value="Star Wars Episodio 4: Una Nueva Esperanza"></option>
+                                        <option value="Star Wars Episodio 5: El Imperio Contraataca"></option>
+                                        <option value="Star Wars Episodio 6: El Retorno del Jedi"></option>
+                                        <option value="Star Wars Episodio 7: El Despertar de la fuerza"></option>
+                                        <option value="Star Wars Episodio 8: Los Últimos Jedi"></option>
+                                        <option value="Star Wars Episodio 9: El Ascenso de Skywalker"></option>
+                                    </datalist>
                             </label>
                         </li>      
                     </ul>
