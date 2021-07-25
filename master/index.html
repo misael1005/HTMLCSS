@@ -6,42 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esta página fue creada como proyecto para el Curso Definitivo de HTML y CSS en Platzi.">
     <meta name="robots" content="index,follow">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
     <title>Curso definitivo de HTML y CSS en Platzi</title>
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item">
+                    <a href="">Home</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="">About</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h1>¡Hola! 😃 Esta es la página DEMO del Curso de Platzi.</h1>
-        <h4>
+        <h1 class="main-title">¡Hola! 😃 Esta es la página DEMO del Curso de Platzi.</h1>
+        <h4 class="main-subtitle">
             Si quieres poder hacer esto tú también, haz <a href="https://platzi.com/clases/html-css/" target="_blank">clic aquí.</a>
         </h4>
         <section>
             <article>
                 <p>Por favor responde las siguientes preguntas:</p>
-                <form action="">
+                <form action="" class="main-form">
                     <ul>
-                        <li>
+                        <li class="main-form__item">
                             <label for="name">
                                 <span>¿Cuál es tu nombre?</span>
                                 <input type="text" id="name" name="name" placeholder="Tu nombre aquí" autocomplete="name" required>
                             </label>
                         </li>
-                        <li>
+                        <li class="main-form__item">
                             <label for="mail">
                                 <span>¿Cuál es tu email?</span>
                                 <input type="email" id="email" name="email" placeholder="Tu correo aquí" autocomplete="email" required>
                             </label>
                         </li>
-                        <li>
+                        <li class="main-form__item">
                             <label for="color">
                                 <span>Elige tu color favorito</span>
                                 <input type="color" id="country" name="country" placeholder="Tu país aquí">
                             </label>
                         </li>
-                        <li>
+                        <li class="main-form__item">
                             <label for="country">
                                 <span>¿En qué país vives?</span>
                                 <select name="country" id="country">
@@ -51,7 +60,7 @@
                                 </select>
                             </label>
                         </li>
-                        <li>
+                        <li class="main-form__item">
                             <label for="movie">
                                 <span>¿Cuál es tu película favorita?</span>
                                 <input list="movie" name="movie" placeholder="Tu pelíclua aquí" required>
