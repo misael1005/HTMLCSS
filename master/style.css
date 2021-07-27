@@ -1,6 +1,10 @@
-html {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+html {
+    font-size: 62.5%;
     background-color: rgb(255, 246, 228);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,8 +18,9 @@ html {
     background-color:teal;
     opacity: 50%;
     padding: 0%;
-    margin-top: 10px;
+    margin-top: 1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
 }
 
 .main-nav__item {
@@ -45,6 +50,7 @@ html {
 .main-title {
     color:rgb(12, 142, 135);
     text-align: center;
+    font-size: 1rem;
 }
 
 .main-subtitle {

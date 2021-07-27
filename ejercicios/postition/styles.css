@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box {
+    border-radius: 5rem;
+    padding: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.one {
+    position: absolute;
+    min-height: 2rem;
+    text-align: center;
+    background-color: rgb(249, 229, 18);
+    border: rgb(249, 229, 18) dotted;
+    font-size: 2.5rem;
+    color: rgb(51, 176, 82);
+    left: 12rem;
+    top: 1rem;
+}
+
+.two {
+    background-color: rgb(51, 176, 82);
+    padding: 5rem;
+    width: 50rem;
+    border-radius: 1rem;
+    text-align: justify;
+    color: white;
+    font-size: 2.5rem;
+}
+
+img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
