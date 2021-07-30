@@ -11,35 +11,70 @@ html {
 img {
     max-width: 100%;
     max-height: 100%;
-    min-height: 80rem;
+    min-height: 90rem;
 }
 
 .parent {
-    display: block;
-    position: absolute;
+    position: relative;
+    top: 15rem;
     width: 40rem;
-    /* left: 30%;
-    top: 10%; */
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: center;
 }
 
-.back {
+.parent__background {
+    display: block;
+    position: absolute;
     background-color: whitesmoke;
     border-radius: 1rem;
     height: 50rem;
+    width: 40rem;
 }
 
-.accent {
-    display: block;
+.parent__background_accent {
+    width: 40rem;
+    position: absolute;
     height: 10rem;
-    background: linear-gradient(0deg, rgb(80,114,10) 0%, rgb(80,114,10) 100%);
+    background: linear-gradient(45deg, #436228, #99B927);;
     border-radius: 0 0 1rem 1rem;
+    bottom: 0;
+    color: white;
 }
 
-.back img {
-    width: 71%;
-    height: 71%;
+.parent__background img {
+    padding: 2rem;
+    width: 61%;
+    height: 61%;
     min-height: 0%;
+}
+
+.parent__location {
+    font-size: 1.5rem;
+    color:#436228;
+    line-height: 3rem;
+}
+
+.parent__name {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.parent__origin {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #ECBA3D;
+}
+
+.parent__background_accent li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    position: relative;
+    margin:0;
+}
+
+.parent__background_accent ul {
+    text-align: center;
+    margin: 2.4rem;
 }
